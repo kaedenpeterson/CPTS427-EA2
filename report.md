@@ -1,0 +1,8 @@
+### Activity Description
+For my activity, the expectation was to analyze web server logs to detect suspicious activity while summarizing overall traffic. I chose to make a log analyzer for Apache access logs in Python. To do this, I parsed the log file, counted IPs/requests/errors, and set up simple logic for identifying suspicious activity. Then I just displayed the information as a report back to the user. I wanted to do an activity that closely aligned with my career goals in digital forensics and what I've been studying recently and I think this was perfect. 
+### Technical Decisions
+Throughout the activity, I made a few different key technical decisions. The first one was which programming language to use. I chose Python because of my experience with it and its simplicity for text processing. I used defaultdict to count the different variables. I implemented the logic to detect suspicious activity based on thresholds for high traffic, repeated errors, and page scanning behavior. I also decided to make it so the user can pass the log file as a command line argument for simplicity.
+### Contributions
+I completed the activity individually but used generative AI for a sample log file I could test it on. 
+### Quality Assessment
+I would assess my participation as satisfactory because I successfully created a functional tool that relates to my career goal. If I were to redo the activity, I would add more advanced detection features such as recognizing patterns over time or analyzing more complex log formats like pcap files. Overall, I think this activity helped me apply my knowledge of digital forensics in a practical way.
